@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+	<style>
+
+	</style>
+</head>
+<body>
+	<h1>Регистрация</h1>
+
+
+
+	<form action="/cgi-bin/registration.py" method="get" id="retgistrationForm">
+		<fieldset><legend>Лични данни</legend>
+			<label>
+				<div>Име:<input
+					type="text"
+					name="userName"
+					autocomplete="off"
+					autofocus
+					placeholder="малко име, на латиница">
+                </div>
+                <div>
+                    Име:<input
+					type="text"
+					name="userName"
+					autocomplete="off"
+					autofocus
+					placeholder="малко име, на латиница">
+                </div>
+                </label>
+                <label>Пол: Мъж:<input type="radio" name="gender" value="m"></label>
+			<label for="female">Жена:</label>
+			<input id="female" type="radio" name="gender" value="f">
+		</fieldset>
+<div>
+		<label for="w3review">Коментар:</label>
+    </div>
+<textarea id="comment" name="comment" rows="3" cols="25" placeholder="напишете ни нещо">
+
+</textarea>
+
+		
+<div>
+		<button type="submit">Send</button>
+    </div>
+	</form>
+
+
+	<!-- <a href="./back-end/registration.js">registration.js</a> -->
+</body>
+</html>
