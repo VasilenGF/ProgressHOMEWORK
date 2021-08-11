@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            position: relative;
+            width: 10em;
+            height: 4em;
+            margin: 0 auto;
+            padding-left: 1.2em;
+            font-size: 30px;
+            list-style: none;
+            border: 5px outset gray;
+            line-height: 1.2em;
+        }
+
+        h1 {
+            margin-left: 26.7em;
+        }
+
+        .emoji-smile:before {
+            content: "\1F603";
+            position: absolute;
+            top: -.01em;
+            left: .2em;
+        }
+
+        .emoji-sad:before {
+            content: "\1F625";
+            position: absolute;
+            top: 1.2em;
+            left: .2em;
+        }
+
+        .emoji-loudly-crying:before {
+
+            content: "\1F62D";
+            position: absolute;
+            top: 2.5em;
+            left: .2em;
+        }
+
+        span {
+            padding-left: .5em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Todo List</h1>
+    <ul class="todoList">
+        <li class="emoji-smile"><span>Learn HTML</span></li>
+        <li class="emoji-sad"><span>Learn CSS</span></li>
+        <li class="emoji-loudly-crying"><span>Learn JavaScript</span></li>
+    </ul>
+</body>
+
+</html>
